@@ -7,6 +7,65 @@
 *.obj
 *.bc
 
+### Visual Studio Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+### IntelliJ, Android Studio, WebStorm, PyCharm (JetBrains) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+.cr.gradle/
+
+### Visual Studio (Windows/Mac) ###
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.sln.docstates
+*.userosscache
+*.sln.cache
+
+### Eclipse ###
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+bin/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Sublime Text / TextMate ###
+*.sublime-project
+*.sublime-workspace
+.tm_properties
+
+### Xcode (macOS) ###
+.DS_Store
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+
 ### C ###
 # Prerequisites
 *.d
