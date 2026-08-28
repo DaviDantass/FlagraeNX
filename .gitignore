@@ -1,0 +1,139 @@
+# Created by https://www.toptal.com/developers/gitignore/api/assembler,c,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=assembler,c,c++
+
+### Assembler ###
+*.exe
+*.o
+*.obj
+*.bc
+
+### Visual Studio Code ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+### IntelliJ, Android Studio, WebStorm, PyCharm (JetBrains) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+gen/
+.cr.gradle/
+
+### Visual Studio (Windows/Mac) ###
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.sln.docstates
+*.userosscache
+*.sln.cache
+
+### Eclipse ###
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+bin/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Sublime Text / TextMate ###
+*.sublime-project
+*.sublime-workspace
+.tm_properties
+
+### Xcode (macOS) ###
+.DS_Store
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.ko
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
+
+# End of https://www.toptal.com/developers/gitignore/api/assembler,c,c++
