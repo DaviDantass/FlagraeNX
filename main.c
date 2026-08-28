@@ -3,6 +3,6 @@
 
 int main() {
   SetConsoleOutputCP(CP_UTF8);
-  printf("Olá, mundo\n");
-  printf("teste pq eu sou muito burro");
+  printf("Olá, mundo");
+  printf("testezinho");
 }
